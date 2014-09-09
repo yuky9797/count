@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    i =0;
+    label.text = [NSString stringWithFormat:@"%d",i];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(IBAction)plus{
+    i=i+1;
+    label.text = [NSString stringWithFormat:@"%d",i];
+}
+
+
+-(IBAction)minus{
+    i=i-1;
+    label.text = [NSString stringWithFormat:@"%d",i];
+}
+
+-(IBAction)kakeru{
+    i=i*2;
+    label.text = [NSString stringWithFormat:@"%d",i];
+}
+
+-(IBAction)clear{
+    i=0;
+    label.text = [NSString stringWithFormat:@"%d",i];
+}
+
+//aiueo
 @end
