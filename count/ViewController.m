@@ -49,6 +49,5 @@
     i=0;
     label.text = [NSString stringWithFormat:@"%d",i];
 }
-
-//aiueo
+//01010101010101010101010101010101010
 @end
