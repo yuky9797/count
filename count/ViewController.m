@@ -49,5 +49,5 @@
     i=0;
     label.text = [NSString stringWithFormat:@"%d",i];
 }
-//098087876723
+//ggah:
 @end
